@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>البرمجة الممتعة</title>
+    <style>
+        body {
+            background-color: #3498db; /* اللون الأزرق */
+            font-family: Arial, sans-serif;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .twitter { background-color: #1da1f2; }
+        .telegram { background-color: #0088cc; }
+        .facebook { background-color: #1877f2; }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="button twitter">تويتر</button>
+        <button class="button telegram">تليجرام</button>
+        <button class="button facebook">فيسبوك</button>
+    </div>
+</body>
+</html>
